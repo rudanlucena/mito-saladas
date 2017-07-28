@@ -1,0 +1,74 @@
+.copo{
+	border: 1px solid;
+	background-color: #A9A9A9;
+	padding: 10px;
+	margin: 10px;
+}
+
+.copo:hover{
+	background-color: #808080
+}
+.copo img{
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+.copo p{
+	text-align: center;
+	margin: 0px;
+	color: white;
+}
+
+.orange{
+	color: orange;
+}
+
+.fruta{
+	background-color: #A9A9A9;
+	padding: 40px;
+	margin: 10px;
+}
+.fruta img{
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+.fruta p{
+	text-align: center;
+	color: white;
+	margin: 0px;
+}
+.proximo{
+	text-align: right;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.fruit-checked{
+	border: 1px solid;
+	height: 10px
+}
+
+.desc .count{
+	color: red;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.jumbotron-logo{
+	padding-top: 10px;
+  	padding-bottom: 10px;
+	background-color: #eee;
+	color: inherit;
+	margin-bottom: 30px;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}

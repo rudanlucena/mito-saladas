@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Mito Saladas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+
+	
+  <div class="jumbotron-logo">
+  	<div class="container">
+	    <h1><span class="orange">M</span>ito Saladas</h1> 
+	    <p>Preencha os campos para finalizarmos o seu pedido</p> 
+	</div>
+  </div>
+
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-4 col-md-offset-4">
+		  <form class="form" action="pedidoSuccess.php">
+		    <div class="form-group">
+		      <label for="nome">Nome:</label>
+		      <input type="text" class="form-control" id="nome" placeholder="Enter nome" name="nome" required>
+		    </div>
+		    <div class="form-group">
+		      <label for="fone">Fone:</label>
+		      <input type="text" class="form-control" id="fone" placeholder="Enter fone" name="fone" required>
+		    </div>
+		    <div class="checkbox">
+		      <label><input type="checkbox" name="remember" checked>Entrega em domicilio.</label>
+		    </div>
+		    <div class="proximo">
+		    	<button type="submit" class="btn btn-success">Concluir</button>
+		    </div>
+		  </form>
+		</div>
+	</div>
+	<?php
+   		include("footer.html");
+    ?>
+  </div>
+</body>	
+</html>
